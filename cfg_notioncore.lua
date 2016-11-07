@@ -152,7 +152,7 @@ defbindings("WMPlex.toplevel", {
     kpress(META.."F1", "ioncore.exec_on(_, ':man notion')"),
 
     bdoc("Run a terminal emulator."),
-    kpress(ALTMETA.."F2", "mod_query.exec_on_merr(_, XTERM or 'xterm')"),
+    kpress(ALTMETA.."F2", "mod_query.exec_on_merr(_, TERM or 'xterm')"),
 
     bdoc("Query for command line to execute."),
     kpress(ALTMETA.."F3", "mod_query.query_exec(_)"),

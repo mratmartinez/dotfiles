@@ -22,7 +22,7 @@
 --ALTMETA=""
 
 -- Terminal emulator.
---XTERM="xterm"
+TERM="terminator"
 
 -- Some basic settings.
 ioncore.set{
