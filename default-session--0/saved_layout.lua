@@ -5,89 +5,159 @@ return {
         ["type"] = "WScreen",
         ["managed"] = {
             [1] = {
+                ["geom"] = {
+                    ["h"] = 768,0,
+                    ["w"] = 1366,0,
+                    ["x"] = 0,0,
+                    ["y"] = 0,0,
+                },
+                ["name"] = "WGroupWS<1>",
                 ["type"] = "WGroupWS",
-                ["level"] = 0,0,
-                ["switchto"] = true,
+                ["initial_outputs"] = {
+                    [1] = "eDP1",
+                },
+                ["sizepolicy"] = "full",
                 ["managed"] = {
                     [1] = {
-                        ["type"] = "WTiling",
-                        ["split_tree"] = {
-                            ["tls"] = 753,0,
-                            ["tl"] = {
-                                ["type"] = "WSplitRegion",
-                                ["regparams"] = {
-                                    ["name"] = "Tiling Frame",
-                                    ["type"] = "WFrame",
-                                    ["mode"] = 1,0,
-                                    ["managed"] = {
-                                    },
-                                },
-                            },
-                            ["type"] = "WSplitSplit",
-                            ["dir"] = "vertical",
-                            ["brs"] = 15,0,
-                            ["br"] = {
-                                ["type"] = "WSplitST",
-                            },
-                        },
-                        ["bottom"] = true,
-                        ["name"] = "WTiling<1>",
-                        ["sizepolicy"] = "full",
                         ["geom"] = {
                             ["h"] = 768,0,
                             ["w"] = 1366,0,
                             ["x"] = 0,0,
                             ["y"] = 0,0,
                         },
+                        ["name"] = "WTiling<1>",
+                        ["split_tree"] = {
+                            ["brs"] = 15,0,
+                            ["dir"] = "vertical",
+                            ["tl"] = {
+                                ["type"] = "WSplitRegion",
+                                ["regparams"] = {
+                                    ["mode"] = 1,0,
+                                    ["name"] = "Tiling Frame",
+                                    ["type"] = "WFrame",
+                                    ["managed"] = {
+                                    },
+                                },
+                            },
+                            ["tls"] = 753,0,
+                            ["br"] = {
+                                ["type"] = "WSplitST",
+                            },
+                            ["type"] = "WSplitSplit",
+                        },
+                        ["sizepolicy"] = "full",
+                        ["bottom"] = true,
                         ["level"] = 0,0,
+                        ["type"] = "WTiling",
                     },
                 },
-                ["name"] = "WGroupWS<1>",
-                ["sizepolicy"] = "full",
+                ["level"] = 0,0,
+                ["switchto"] = true,
+            },
+            [2] = {
                 ["geom"] = {
                     ["h"] = 768,0,
                     ["w"] = 1366,0,
                     ["x"] = 0,0,
                     ["y"] = 0,0,
                 },
+                ["name"] = "WGroupWS",
+                ["type"] = "WGroupWS",
                 ["initial_outputs"] = {
                     [1] = "eDP1",
                 },
+                ["sizepolicy"] = "full",
+                ["managed"] = {
+                    [1] = {
+                        ["geom"] = {
+                            ["h"] = 768,0,
+                            ["w"] = 1366,0,
+                            ["x"] = 0,0,
+                            ["y"] = 0,0,
+                        },
+                        ["name"] = "WTiling",
+                        ["split_tree"] = {
+                            ["type"] = "WSplitRegion",
+                            ["regparams"] = {
+                                ["mode"] = 1,0,
+                                ["name"] = "WFrame",
+                                ["type"] = "WFrame",
+                                ["managed"] = {
+                                    [1] = {
+                                        ["geom"] = {
+                                            ["h"] = 748,0,
+                                            ["w"] = 1364,0,
+                                            ["x"] = 1,0,
+                                            ["y"] = 19,0,
+                                        },
+                                        ["name"] = "WGroupCW<1>",
+                                        ["type"] = "WGroupCW",
+                                        ["sizepolicy"] = "full",
+                                        ["managed"] = {
+                                            [1] = {
+                                                ["geom"] = {
+                                                    ["h"] = 748,0,
+                                                    ["w"] = 1364,0,
+                                                    ["x"] = 0,0,
+                                                    ["y"] = 0,0,
+                                                },
+                                                ["type"] = "WClientWin",
+                                                ["level"] = 1,0,
+                                                ["sizepolicy"] = "full",
+                                                ["bottom"] = true,
+                                                ["checkcode"] = 1,0,
+                                                ["windowid"] = 10485762,0,
+                                            },
+                                        },
+                                        ["level"] = 0,0,
+                                        ["switchto"] = true,
+                                    },
+                                },
+                            },
+                        },
+                        ["sizepolicy"] = "full",
+                        ["bottom"] = true,
+                        ["level"] = 0,0,
+                        ["type"] = "WTiling",
+                    },
+                },
+                ["hidden"] = true,
+                ["level"] = 0,0,
             },
-            [2] = {
+            [3] = {
                 ["type"] = "WGroupWS",
                 ["pseudomodal"] = true,
                 ["managed"] = {
                     [1] = {
-                        ["type"] = "WFrame",
-                        ["bottom"] = true,
                         ["geom"] = {
                             ["h"] = 480,0,
                             ["w"] = 640,0,
                             ["x"] = 363,0,
                             ["y"] = 144,0,
                         },
+                        ["name"] = "*scratchpad*",
+                        ["type"] = "WFrame",
+                        ["bottom"] = true,
+                        ["sizepolicy"] = "free_glue",
                         ["managed"] = {
                         },
-                        ["name"] = "*scratchpad*",
-                        ["sizepolicy"] = "free_glue",
                         ["mode"] = 0,0,
                         ["level"] = 1025,0,
                     },
                 },
-                ["name"] = "*scratchws*",
-                ["sizepolicy"] = "full",
                 ["geom"] = {
                     ["h"] = 768,0,
                     ["w"] = 1366,0,
                     ["x"] = 0,0,
                     ["y"] = 0,0,
                 },
-                ["initial_outputs"] = {
-                },
-                ["unnumbered"] = true,
+                ["name"] = "*scratchws*",
                 ["level"] = 1,0,
                 ["hidden"] = true,
+                ["sizepolicy"] = "full",
+                ["unnumbered"] = true,
+                ["initial_outputs"] = {
+                },
             },
         },
     },

@@ -1,4 +1,4 @@
--- look_dusky.lua drawing engine configuration file for Notion.
+-- look_mrat.lua drawing engine configuration file for Notion.
 
 if not gr.select_engine("de") then return end
 
@@ -15,6 +15,8 @@ de.defstyle("*", {
     border_style = "elevated",
     font = "-*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*",
     text_align = "center",
+    bar = "none",
+    transparent = "true",
 })
 
 de.defstyle("tab", {
