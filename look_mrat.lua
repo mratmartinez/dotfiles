@@ -7,8 +7,8 @@ de.reset()
 de.defstyle("*", {
     shadow_colour = "#404040",
     highlight_colour = "#707070",
-    background_colour = "#505050",
-    foreground_colour = "#a0a0a0",
+    background_colour = "#506050",
+    foreground_colour = "#FFFFFF",
     padding_pixels = 1,
     highlight_pixels = 1,
     shadow_pixels = 1,
@@ -31,19 +31,19 @@ de.defstyle("tab", {
         shadow_colour = "#351818",
         highlight_colour = "#765858",
         background_colour = "#563838",
-        foreground_colour = "#a0a0a0",
+        foreground_colour = "#FFFFFF",
     }),
     de.substyle("inactive-selected", {
         shadow_colour = "#404040",
         highlight_colour = "#909090",
         background_colour = "#606060",
-        foreground_colour = "#a0a0a0",
+        foreground_colour = "#FFFFFF",
     }),
     de.substyle("inactive-unselected", {
         shadow_colour = "#404040",
         highlight_colour = "#707070",
-        background_colour = "#505050",
-        foreground_colour = "#a0a0a0",
+        background_colour = "#506050",
+        foreground_colour = "#FFFFFF",
     }),
     text_align = "center",
 })
@@ -51,9 +51,9 @@ de.defstyle("tab", {
 de.defstyle("input", {
     shadow_colour = "#404040",
     highlight_colour = "#707070",
-    background_colour = "#000000",
+    background_colour = "#201010",
     foreground_colour = "#ffffff",
-    border_style = "elevated",
+    border_style = "inlaid",
     de.substyle("*-cursor", {
         background_colour = "#ffffff",
         foreground_colour = "#000000",
