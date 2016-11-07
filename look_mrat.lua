@@ -16,7 +16,10 @@ de.defstyle("*", {
     font = "-*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*",
     text_align = "center",
     bar = "none",
-    transparent = "true",
+})
+
+de.defstyle("frame", {
+    transparent_background = "true",
 })
 
 de.defstyle("tab", {
