@@ -97,7 +97,7 @@ dopath("cfg_defaults")
 --dopath("cfg_notioncore")
 
 -- Load some kludges to make apps behave better.
---dopath("cfg_kludges")
+dopath("cfg_kludges")
 
 -- Define some layouts.
 --dopath("cfg_layouts")
