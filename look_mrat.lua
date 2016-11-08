@@ -12,7 +12,7 @@ de.defstyle("*", {
     padding_pixels = 1,
     highlight_pixels = 1,
     shadow_pixels = 1,
-    border_style = "elevated",
+    border_style = "ridge",
     font = "-*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*",
     text_align = "center",
     bar = "none",

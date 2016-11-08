@@ -145,6 +145,9 @@ defbindings("WMPlex.toplevel", {
     bdoc("Lock screen"),
     kpress(META.."L", "notioncore.exec_on(_, notioncore.lookup_script('notion-lock'))"),
 
+    bdoc("Pick a pass."),
+    kpress(ALTMETA.."F1", "mod_query.exec_on_merr(_, 'passmenu')"),
+
     bdoc("Run a terminal emulator."),
     kpress(ALTMETA.."F2", "mod_query.exec_on_merr(_, TERM or 'xterm')"),
 
