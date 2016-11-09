@@ -86,7 +86,7 @@ defbindings("WScreen", {
     -- with tilings.
     kpress(META.."Tab", "ioncore.goto_next(_chld, 'right')",
            "_chld:non-nil"),
-    submap(META.."K", {
+    submap(META.."Z", {
         bdoc("Backward-circulate focus."),
         kpress("AnyModifier+Tab", "ioncore.goto_next(_chld, 'left')",
                "_chld:non-nil"),
@@ -327,7 +327,7 @@ defbindings("WMoveresMode", {
 -- Main menu
 defmenu("mainmenu", {
     menuentry("Run...",         "mod_query.query_exec(_)"),
-    menuentry("Terminal",       "mod_query.exec_on_merr(_, XTERM or 'xterm')"),
+    menuentry("Terminal",       "mod_query.exec_on_merr(_, TERM or 'xterm')"),
     menuentry("Lock screen",
         "notioncore.exec_on(_, notioncore.lookup_script('notion-lock'))"),
     menuentry("Help",           "mod_query.query_man(_)"),
