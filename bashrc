@@ -6,6 +6,6 @@
 [[ $- != *i* ]] && return
 
 alias zz='pass -c'
-alias scrot="scrot -e 'mv $f ~/Imágenes/Screenshots/'"
+alias scrot=$(scrot -e 'mv $f ~/Imágenes/Screenshots/')
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
