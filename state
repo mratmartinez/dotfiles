@@ -1,6 +1,7 @@
-sw_volume: 100
+sw_volume: 1
 audio_device_state:1:My ALSA Device
 state: stop
+current: 0
 random: 0
 repeat: 0
 single: 0
@@ -9,4 +10,13 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+0:Cake/(1998) Prolonging The Magic/01 - Cake - Satan Is My Motor.mp3
+1:Cake/(1998) Prolonging The Magic/02 - Cake - Mexico.mp3
+2:Cake/(1998) Prolonging The Magic/03 - Cake - Never There.mp3
+3:Cake/(1998) Prolonging The Magic/04 - Cake - Guitar.mp3
+4:Cake/(1998) Prolonging The Magic/05 - Cake - You Turn The Screws.mp3
+5:Cake/(1998) Prolonging The Magic/06 - Cake - Walk On By.mp3
+6:Cake/(1998) Prolonging The Magic/07 - Cake - Sheep Go To Heaven.mp3
+7:Cake/(1998) Prolonging The Magic/08 - Cake - When You Sleep.mp3
+8:Cake/(1998) Prolonging The Magic/09 - Cake - Hem Of Your Garment.mp3
 playlist_end
