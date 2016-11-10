@@ -3,9 +3,10 @@
 --
 
 defwinprop {
-    class = "chromium",
+    class = "Chromium",
     tag = "www",
     transient_mode = "off",
     transient_mode = "off",
+    target = "bigfuckingframe",
     jumpto = true
 }
