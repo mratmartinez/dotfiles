@@ -1,0 +1,3 @@
+# This script will be placed on /usr/local/bin
+# The reason? If I run "scrot" from the Notion WM (with the F3 key), it will keep running the /usr/bin/scrot without checking my bashrc :c
+scrot -e 'mv $f ~/Imágenes/Screenshots/'
