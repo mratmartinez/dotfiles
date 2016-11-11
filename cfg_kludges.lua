@@ -32,5 +32,6 @@ defwinprop {
 defwinprop {
     class = "Terminator",
     instance = "terminator",
+    role = "framed",
     target = "righttt"
 }

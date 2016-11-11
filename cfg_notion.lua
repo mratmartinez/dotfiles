@@ -22,7 +22,7 @@
 --ALTMETA=""
 
 -- Terminal emulator.
-TERM="terminator"
+TERM="terminator -r framed"
 
 -- Some basic settings.
 ioncore.set{
