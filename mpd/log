@@ -1,0 +1,699 @@
+Nov 09 07:50 : avahi: Initializing interface
+Nov 09 07:50 : avahi: Client changed to state 101
+Nov 09 07:50 : avahi: Client is CONNECTING
+Nov 09 07:50 : state_file: Loading state file /home/mrat/.mpd/state
+Nov 09 07:50 : inotify: initializing inotify
+Nov 09 07:50 : inotify: watching music directory
+Nov 09 07:50 : state_file: Saving state file /home/mrat/.mpd/state
+Nov 09 07:50 : avahi: Shutting down interface
+Nov 09 07:50 : listen: listen_global_finish called
+Nov 09 07:51 : avahi: Initializing interface
+Nov 09 07:51 : avahi: Client changed to state 101
+Nov 09 07:51 : avahi: Client is CONNECTING
+Nov 09 07:51 : state_file: Loading state file /home/mrat/.mpd/state
+Nov 09 07:51 : inotify: initializing inotify
+Nov 09 07:51 : inotify: watching music directory
+Nov 09 07:51 : client: [0] opened from [::1]:41698
+Nov 09 07:51 : client: [0] process command "status"
+Nov 09 07:51 : alsa_mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "plchanges "0""
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "outputs"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "decoders"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "outputs"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "outputs"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "idle"
+Nov 09 07:51 : client: [0] command returned 1
+Nov 09 07:51 : client: [0] process command "playid "1""
+Nov 09 07:51 : playlist: play 0:"Cake/(1998) Prolonging The Magic/01 - Cake - Satan Is My Motor.mp3"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : decoder_thread: probing plugin mad
+Nov 09 07:51 : playlist: queue song 1:"Cake/(1998) Prolonging The Magic/02 - Cake - Mexico.mp3"
+Nov 09 07:51 : client: [0] process command "idle"
+Nov 09 07:51 : client: [0] command returned 1
+Nov 09 07:51 : mad: detected LAME version 3.92 ("LAME3.92 ")
+Nov 09 07:51 : mad: LAME peak found: 0.000000
+Nov 09 07:51 : mad: encoder delay is 576, encoder padding is 2220
+Nov 09 07:51 : decoder: audio_format=44100:24:2, seekable=true
+Nov 09 07:51 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 09 07:51 : output: Failed to open audio output
+Nov 09 07:51 : player: problems opening audio device while playing "Cake/(1998) Prolonging The Magic/01 - Cake - Satan Is My Motor.mp3"
+Nov 09 07:51 : client: [0] process command "status"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "idle"
+Nov 09 07:51 : client: [0] command returned 1
+Nov 09 07:51 : client: [0] process command "status"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "idle"
+Nov 09 07:51 : client: [0] command returned 1
+Nov 09 07:51 : client: [0] process command "stop"
+Nov 09 07:51 : playlist: stop
+Nov 09 07:51 : player: played "Cake/(1998) Prolonging The Magic/01 - Cake - Satan Is My Motor.mp3"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "idle"
+Nov 09 07:51 : client: [0] command returned 1
+Nov 09 07:51 : client: [0] process command "status"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "idle"
+Nov 09 07:51 : client: [0] command returned 1
+Nov 09 07:51 : client: [0] closed
+Nov 09 07:51 : state_file: Saving state file /home/mrat/.mpd/state
+Nov 09 07:51 : avahi: Shutting down interface
+Nov 09 07:51 : listen: listen_global_finish called
+Nov 09 07:51 : avahi: Initializing interface
+Nov 09 07:51 : avahi: Client changed to state 101
+Nov 09 07:51 : avahi: Client is CONNECTING
+Nov 09 07:51 : state_file: Loading state file /home/mrat/.mpd/state
+Nov 09 07:51 : inotify: initializing inotify
+Nov 09 07:51 : inotify: watching music directory
+Nov 09 07:51 : client: [0] opened from [::1]:41708
+Nov 09 07:51 : client: [0] process command "status"
+Nov 09 07:51 : alsa_mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "plchanges "0""
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "outputs"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "decoders"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "outputs"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "outputs"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "idle"
+Nov 09 07:51 : client: [0] command returned 1
+Nov 09 07:51 : client: [0] process command "playid "1""
+Nov 09 07:51 : playlist: play 0:"Cake/(1998) Prolonging The Magic/01 - Cake - Satan Is My Motor.mp3"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : decoder_thread: probing plugin mad
+Nov 09 07:51 : playlist: queue song 1:"Cake/(1998) Prolonging The Magic/02 - Cake - Mexico.mp3"
+Nov 09 07:51 : client: [0] process command "idle"
+Nov 09 07:51 : client: [0] command returned 1
+Nov 09 07:51 : mad: detected LAME version 3.92 ("LAME3.92 ")
+Nov 09 07:51 : mad: LAME peak found: 0.000000
+Nov 09 07:51 : mad: encoder delay is 576, encoder padding is 2220
+Nov 09 07:51 : decoder: audio_format=44100:24:2, seekable=true
+Nov 09 07:51 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 09 07:51 : output: Failed to open audio output
+Nov 09 07:51 : player: problems opening audio device while playing "Cake/(1998) Prolonging The Magic/01 - Cake - Satan Is My Motor.mp3"
+Nov 09 07:51 : client: [0] process command "status"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "idle"
+Nov 09 07:51 : client: [0] command returned 1
+Nov 09 07:51 : client: [0] process command "status"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "idle"
+Nov 09 07:51 : client: [0] command returned 1
+Nov 09 07:51 : client: [0] process command "stop"
+Nov 09 07:51 : playlist: stop
+Nov 09 07:51 : player: played "Cake/(1998) Prolonging The Magic/01 - Cake - Satan Is My Motor.mp3"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "idle"
+Nov 09 07:51 : client: [0] command returned 1
+Nov 09 07:51 : client: [0] process command "status"
+Nov 09 07:51 : client: [0] command returned 0
+Nov 09 07:51 : client: [0] process command "idle"
+Nov 09 07:51 : client: [0] command returned 1
+Nov 09 07:51 : client: [0] closed
+Nov 09 07:51 : client: [1] opened from [::1]:41710
+Nov 09 07:51 : client: [1] process command "status"
+Nov 09 07:51 : client: [1] command returned 0
+Nov 09 07:51 : client: [1] process command "plchanges "0""
+Nov 09 07:51 : client: [1] command returned 0
+Nov 09 07:51 : client: [1] process command "outputs"
+Nov 09 07:51 : client: [1] command returned 0
+Nov 09 07:51 : client: [1] process command "decoders"
+Nov 09 07:51 : client: [1] command returned 0
+Nov 09 07:51 : client: [1] process command "outputs"
+Nov 09 07:51 : client: [1] command returned 0
+Nov 09 07:51 : client: [1] process command "outputs"
+Nov 09 07:51 : client: [1] command returned 0
+Nov 09 07:51 : client: [1] process command "idle"
+Nov 09 07:51 : client: [1] command returned 1
+Nov 09 07:51 : client: [1] process command "playid "1""
+Nov 09 07:51 : playlist: play 0:"Cake/(1998) Prolonging The Magic/01 - Cake - Satan Is My Motor.mp3"
+Nov 09 07:51 : decoder_thread: probing plugin mad
+Nov 09 07:51 : client: [1] command returned 0
+Nov 09 07:51 : playlist: queue song 1:"Cake/(1998) Prolonging The Magic/02 - Cake - Mexico.mp3"
+Nov 09 07:51 : client: [1] process command "idle"
+Nov 09 07:51 : client: [1] command returned 1
+Nov 09 07:51 : mad: detected LAME version 3.92 ("LAME3.92 ")
+Nov 09 07:51 : mad: LAME peak found: 0.000000
+Nov 09 07:51 : mad: encoder delay is 576, encoder padding is 2220
+Nov 09 07:51 : decoder: audio_format=44100:24:2, seekable=true
+Nov 09 07:51 : client: [1] process command "status"
+Nov 09 07:51 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 09 07:51 : output: Failed to open audio output
+Nov 09 07:51 : player: problems opening audio device while playing "Cake/(1998) Prolonging The Magic/01 - Cake - Satan Is My Motor.mp3"
+Nov 09 07:51 : client: [1] command returned 0
+Nov 09 07:51 : client: [1] process command "idle"
+Nov 09 07:51 : client: [1] command returned 1
+Nov 09 07:51 : client: [1] process command "status"
+Nov 09 07:51 : client: [1] command returned 0
+Nov 09 07:51 : client: [1] process command "idle"
+Nov 09 07:51 : client: [1] command returned 1
+Nov 09 07:51 : client: [1] process command "stop"
+Nov 09 07:51 : playlist: stop
+Nov 09 07:51 : player: played "Cake/(1998) Prolonging The Magic/01 - Cake - Satan Is My Motor.mp3"
+Nov 09 07:51 : client: [1] command returned 0
+Nov 09 07:51 : client: [1] process command "idle"
+Nov 09 07:51 : client: [1] command returned 1
+Nov 09 07:51 : client: [1] process command "status"
+Nov 09 07:51 : client: [1] command returned 0
+Nov 09 07:51 : client: [1] process command "idle"
+Nov 09 07:51 : client: [1] command returned 1
+Nov 09 07:51 : client: [1] closed
+Nov 09 07:51 : state_file: Saving state file /home/mrat/.mpd/state
+Nov 09 07:51 : avahi: Shutting down interface
+Nov 09 07:51 : listen: listen_global_finish called
+Nov 09 07:52 : avahi: Initializing interface
+Nov 09 07:52 : avahi: Client changed to state 101
+Nov 09 07:52 : avahi: Client is CONNECTING
+Nov 09 07:52 : state_file: Loading state file /home/mrat/.mpd/state
+Nov 09 07:52 : inotify: initializing inotify
+Nov 09 07:52 : inotify: watching music directory
+Nov 09 07:52 : client: [0] opened from [::1]:41712
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "plchanges "0""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "outputs"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "decoders"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "outputs"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "outputs"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "playid "1""
+Nov 09 07:52 : playlist: play 0:"Cake/(1998) Prolonging The Magic/01 - Cake - Satan Is My Motor.mp3"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : decoder_thread: probing plugin mad
+Nov 09 07:52 : playlist: queue song 1:"Cake/(1998) Prolonging The Magic/02 - Cake - Mexico.mp3"
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : mad: detected LAME version 3.92 ("LAME3.92 ")
+Nov 09 07:52 : mad: LAME peak found: 0.000000
+Nov 09 07:52 : mad: encoder delay is 576, encoder padding is 2220
+Nov 09 07:52 : decoder: audio_format=44100:24:2, seekable=true
+Nov 09 07:52 : alsa_output: opened default type=IOPLUG
+Nov 09 07:52 : alsa_output: format=S24_LE (Signed 24 bit Little Endian)
+Nov 09 07:52 : alsa_output: buffer: size=48..524288 time=1088..11888617
+Nov 09 07:52 : alsa_output: period: size=16..174763 time=362..3962880
+Nov 09 07:52 : alsa_output: default period_time = buffer_time/4 = 500000/4 = 125000
+Nov 09 07:52 : alsa_output: buffer_size=22050 period_size=5512
+Nov 09 07:52 : output: opened plugin=alsa name="My ALSA Device" audio_format=44100:24:2
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "3""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "5""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "7""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "9""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "11""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "13""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "15""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "17""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "19""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "21""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "23""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "25""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "27""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "29""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "31""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "33""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "35""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "37""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "39""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "41""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "setvol "43""
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:52 : client: [0] process command "status"
+Nov 09 07:52 : client: [0] command returned 0
+Nov 09 07:52 : client: [0] process command "idle"
+Nov 09 07:52 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "45""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "47""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "49""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "51""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "53""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "55""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "57""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "59""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "61""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "63""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "65""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "67""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "69""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "71""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "73""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "75""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "77""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "79""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "81""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "83""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "85""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "87""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "89""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "91""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "93""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "95""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "97""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "99""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "100""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "100""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "100""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "100""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "100""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "100""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "100""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "100""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "setvol "100""
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] process command "status"
+Nov 09 07:53 : client: [0] command returned 0
+Nov 09 07:53 : client: [0] process command "idle"
+Nov 09 07:53 : client: [0] command returned 1
+Nov 09 07:53 : client: [0] closed
