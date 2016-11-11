@@ -4,6 +4,7 @@
 
 defwinprop {
     class = "Chromium",
+    instance = "chromium",
     transient_mode = "off",
     transient_mode = "off",
     target = "bigfuckingframe"

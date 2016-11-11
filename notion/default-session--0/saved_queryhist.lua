@@ -2,9 +2,9 @@
 return {
     [1] = "menu.mainmenu:session/restart",
     [2] = "run:chromium",
-    [3] = "framename:righttt",
-    [4] = "lua:mod_query.query_renameframe(_)",
-    [5] = "run:terminator",
+    [3] = "run:terminator",
+    [4] = "framename:righttt",
+    [5] = "lua:mod_query.query_renameframe(_)",
     [6] = "run:terminator -c=asdoasd",
     [7] = "run:terminator -c aasda",
     [8] = "run:terminator --class SDS",
