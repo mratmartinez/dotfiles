@@ -7,13 +7,18 @@ defwinprop {
     instance = "chromium",
     transient_mode = "off",
     transient_mode = "off",
-    target = "bigfuckingframe"
+    target = "bigfuckingworkspace"
 }
 
 defwinprop {
     class = "Evince",
-    target = "bigfuckingframe",
+    target = "bigfuckingworkspace",
     jumpto = true
+}
+
+defwinprop {
+    class = "Kid3",
+    target = "bigfuckingworkspace"
 }
 
 defwinprop {
