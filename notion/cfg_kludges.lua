@@ -17,6 +17,11 @@ defwinprop {
 }
 
 defwinprop {
+    class = "dosbox",
+    target = "bigfuckingworkspace"
+}
+
+defwinprop {
     class = "Kid3",
     target = "bigfuckingworkspace"
 }
