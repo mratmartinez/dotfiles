@@ -15,5 +15,6 @@ dpack () {
         git clone https://aur.archlinux.org/$1.git
 }
 alias cls='clear'
+alias ta='textadept-curses'
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
