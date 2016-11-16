@@ -1,0 +1,12 @@
+history
+bookmarks
+tagged
+*.log
+*.lua.*
+saved_queryhist.lua
+session_term
+database
+log
+pid
+state
+sticker.sql
