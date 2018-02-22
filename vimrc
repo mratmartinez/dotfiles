@@ -6,10 +6,6 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
@@ -20,8 +16,6 @@ Plugin 'nvie/vim-flake8'
 Plugin 'Alvarocz/vim-fresh'
 Plugin 'https://github.com/devnul1/heman'
 Plugin 'https://github.com/buc0/my-vim-colors'
-
-" All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -56,6 +50,7 @@ au BufNewFile,BufRead *.py*
     \ set fileformat=unix
 
 " More YCM stuff
+let g:ycm_server_python_interpreter = '/usr/bin/python'
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 let g:ycm_autoclose_preview_window_after_insertion = 1
@@ -72,3 +67,8 @@ syntax on
 " colorscheme fresh
 " colorscheme heman
 colorscheme bdconry
+
+set nowrap           " do not automatically wrap on load
+set formatoptions-=t " do not automatically wrap text when typing<Paste>
+set textwidth=0
+set wrapmargin=0
