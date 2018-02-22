@@ -4,13 +4,13 @@
 # A Nisman lo mataron
 
 function check(){
-	if [ $PWD != '/' ]; then
+	if [ "$PWD" != '/' ]; then
 		IFS='/' read -a array <<<$PWD
-		if [ ${array[1]} == 'home' ]; then
+		if [[ "${array[1]}" == 'home' ]]; then
 			PREDIRECTO=$(echo $PWD |  sed -r 's|/([^/]{,2})[^/]*|/\1|g' | cut -c8- | rev |  cut -c3- | rev)
-			if [ ${array[-1]} == $USER ]; then
+			if [[ "${array[-1]}" == "$USER" ]]; then
 				DIRECTO=\~
-			elif [ ${array[-1]} == ${array[1]} ]; then
+			elif [[ "${array[-1]}" == "${array[1]}" ]]; then
 				DIRECTO=/${array[-1]}
 			else
 				DIRECTO=\~/$PREDIRECTO${array[-1]}
